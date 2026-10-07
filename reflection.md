@@ -16,7 +16,7 @@ Document at least 3 bugs you found. Add rows as needed.
 |-------|-------------------|-----------------|------------------------|
 |  54   |    "Too High"     |    "Too Low"    |        none            |
 | Switch from normal to hard | 1 to 200 | 1 to 50 | none |
-| | | | |
+| Clicked on new game | After clicking on "new game" the comment that tells you to start a new game should disappear and show the hint  | The comment did not disappear and the website did not show if I should go lower or higher | none |
 
 ---
 
