@@ -29,6 +29,10 @@ def parse_guess(raw: str):
     return True, value, None
 
 
+# Bug: TypeError branch uses a lexicographic comparison 
+# with str(guess) and secret
+# Fix: Remove the string-comparison fallback
+
 def check_guess(guess, secret):
     guess, secret = int(guess), int(secret)
 
