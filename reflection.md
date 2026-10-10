@@ -27,7 +27,7 @@ A: I used Claude code to debug and change the code as well as the files.
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 A: I asked claude code why the hint logic was backwards and also provide solutions for it. When it recommended that I remove the string-comparison block, the app gave the correct hints.
 - Give one example of an AI suggestion you did not accept as written (including what the AI suggested, why you rejected or changed it, and how you verified your version). It does not have to be a suggestion that was wrong: over-engineered, out of scope, harder to read, or a poor fit for this codebase all count.
-
+Claude ode provided an optional addition to the number ranges based on difficulty: Rebalance Hard mode's attempts to 8 attempts. I didn't inlcude that addition as I felt it was out of scope for the project and unnecessary. 
 ---
 
 ## 3. Debugging and testing your fixes
